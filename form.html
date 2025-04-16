@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+     <!-- Task 1: Lists -->
+    <fieldset>
+        <legend>Personal information</legend><br>
+        <label>Name</label>
+        <input type="text" name="name" required><br>
+        <label>Email</label>
+        <input type="email" name="email" required><br>
+        <label>Password</label>
+        <input type="password" name="password" required><br>
+    </fieldset><br>
+          
+    <fieldset>
+        <legend>Gender</legend><br>
+        <label>Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label>Female</label>
+        <input type="radio" id="female" name="gender" value="female"><br>
+    </fieldset><br>
+    
+    <fieldset>
+        <label>Interest</label><br>
+        <input type="checkbox" value="crocheting">subject<br>
+        <input type="checkbox" value="cooking">cooking<br>
+        <input type="checkbox" value="playing">playing<br>
+        <input type="checkbox" value="studying">studying<br>
+        
+        
+    </fieldset><br><br>
+     <!-- Task 2: Lists -->
+    <fieldset>
+        <legends>Interest</legends><br>
+        <label>Choose your country</label>
+        <select name="county">
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+        </select>
+
+    </fieldset><br><br>
+
+    <fieldset>
+        <label for="profile">Choose profile picture</label>
+        <input type="file" id="profile" name="profile" accept="image/" required><br><br>
+        <input type="submit" value="upload">
+    </fieldset><br><br>
+     <!-- Task 3: Lists -->
+       <Button>
+        <input type="button" value="Submit">
+       </Button>
+         
+    </form>
+</body>
+</html>
